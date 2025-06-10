@@ -25,27 +25,24 @@ Table of contents
 16. Extra large devices (large desktops, 1200px and up)
 --------------------------------------------- */
 
-
-
-
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pretendard Variable', 'Roboto', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
 }
 .h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pretendard Variable', 'Roboto', sans-serif;
   font-size: 48px !important;
   font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pretendard Variable', 'Roboto', sans-serif;
   font-size: 30px !important;
   font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pretendard Variable', 'Roboto', sans-serif;
   font-size: 22px !important;
 }
 /* General */
@@ -67,6 +64,7 @@ body, ul, li, p, a, label, input, div {
   background-color: #c23232;
   color: #fff;
 }
+
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
@@ -76,11 +74,14 @@ body, ul, li, p, a, label, input, div {
 
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #efefef !important;}
+
 /* Accordion */
 .templatemo-accordion a { color: #000;}
 .templatemo-accordion a:hover { color: #333d4a;}
+
 /* Shop */
 .shop-top-menu a:hover { color: #c23232 !important;}
+
 /* Product */
 .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
 .product-wap .product-color-dot.color-dot-red { background:#f71515;}
@@ -104,6 +105,7 @@ body, ul, li, p, a, label, input, div {
   font-size: 15px;
   margin-top: 20px;
 }
+
 /* Brand */
 .brand-img {
   filter: grayscale(100%);
@@ -114,6 +116,7 @@ body, ul, li, p, a, label, input, div {
   filter: grayscale(0%);
   opacity: 1;
 }
+
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
@@ -124,18 +127,22 @@ body, ul, li, p, a, label, input, div {
   color: #b22222 !important;
   font-size: 2.8em !important;
 }
+
 /* Carousel Brand */
 .tempaltemo-carousel .h1 {
   font-size: .5em !important;
   color: #000 !important;
 }
+
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
 .services-icon-wap:hover {background: #c23232;}
+
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
+
 /* Footer */
 #tempaltemo_footer a { color: #dcdde1;}
 #tempaltemo_footer a:hover { color: #c23232;}
@@ -154,10 +161,7 @@ body, ul, li, p, a, label, input, div {
   transition: .5s;
 }
 #tempaltemo_footer .border-light { border-color: #2d343f !important;}
-/*
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-*/
+
 /* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
   font-size: 12px !important;
@@ -171,10 +175,10 @@ body, ul, li, p, a, label, input, div {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}
 }
 
-/*// Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   #templatemo_main_nav .navbar-nav {max-width: 450px;}
- }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
