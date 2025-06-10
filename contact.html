@@ -131,18 +131,14 @@ https://templatemo.com/tm-559-zay-shop
     <div id="mapid" style="width: 100%; height: 300px;"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script>
-        var mymap = L.map('mapid').setView([37.5609748, 126.9864835, 13], 13);
+        var mymap = L.map('mapid').setView([37.56046649286919, 126.98576749553591], 30);
 
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
             maxZoom: 18,
-            attribution: '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            id: 'mapbox/streets-v11',
-            tileSize: 512,
-            zoomOffset: -1
         }).addTo(mymap);
 
-        L.marker([37.5609748, 126.9864835, 13]).addTo(mymap)
+        L.marker([37.56046649286919, 126.98576749553591]).addTo(mymap)
             .bindPopup("Lis Store").openPopup();
 
         mymap.scrollWheelZoom.disable();
